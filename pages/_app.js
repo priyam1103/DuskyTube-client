@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps,props }) {
         <Navbar />
       
         <Component {...pageProps} />
-        <Sidebar />
+        
       </GlobalProvider>
     </div>
   );

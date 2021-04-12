@@ -4,6 +4,7 @@ import HomeGrid from "../components/HomeGrid";
 import fetch from "isomorphic-fetch";
 import { getFilters } from "../customHook/GetFilters";
 import { GlobalContext } from "../context/GlobalState";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   const { videoslist, filters } = useContext(GlobalContext);
@@ -36,6 +37,8 @@ export default function Home() {
         handlem={handlem}
         handleout={handleout}
       />
+              <Sidebar />
+
     </div>
   );
 }
