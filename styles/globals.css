@@ -552,7 +552,7 @@ body {
     margin: 0.5rem;
   }
   .videop {
-    width: 95vw;
+    width: 90vw;
     height: 220px;
   }
   .search-sym {
@@ -662,7 +662,7 @@ margin-top: 1rem;
   cursor: pointer;
 }
 .border {
-  width: 100rem;
+  width: 100vw;
   margin: 1rem 0;
   border-bottom-width: 1px;
   border-bottom-style: solid;

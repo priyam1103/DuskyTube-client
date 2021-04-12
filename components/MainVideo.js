@@ -17,8 +17,7 @@ export default function MainVideo({
         <div className="main-video">
           <div className="video-cards">
           <iframe
-            width="800"
-            height="420"
+           
             className="mainvideopx"
             src={`${current_video.videourl}?autoplay=1&mute=1&loop=1&modestbranding=1&rel=0`}
             frameBorder="0"
