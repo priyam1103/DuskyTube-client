@@ -31,8 +31,9 @@ function MyApp({ Component, pageProps,props }) {
       <GlobalProvider>
         <UpdateData data={props.data}/>
         <Navbar />
-        <Sidebar />
+      
         <Component {...pageProps} />
+        <Sidebar />
       </GlobalProvider>
     </div>
   );
