@@ -585,6 +585,7 @@ body {
   .navbar {
     padding: 0.5rem;
     height: 5vh;
+    width: 100vw;
   }
 
   .navbar .brand-name {
@@ -627,7 +628,7 @@ body {
   
 .mainvideopx{
   width: 100vw;
-  height: 40vh;
+  height: 200px;
   position: fixed;
   z-index: 500000;
 }
@@ -638,7 +639,7 @@ margin-top: 1rem;
 
 
 .video-page .main-video .name {
-  padding-top: 21rem;
+  padding-top: 15rem;
   width: 90vw;
   font-size: 1.2rem;
   padding-left: 0.5rem;
@@ -701,7 +702,7 @@ margin-top: 1rem;
 
 .video-page .filter-bar {
   position: sticky;
-  top: 23rem;
+  top: 17rem;
   z-index: 20000;
   display: flex;
   flex-direction: row;
