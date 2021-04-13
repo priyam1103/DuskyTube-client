@@ -325,6 +325,7 @@ padding-left: 5rem;
 .navbar .search .search-result .search-data {
   margin: 1rem;
   border-bottom: 1px solid #3d3d29;
+  cursor: pointer;
 }
 
 .navbar .search .search-result .no-result {
@@ -489,7 +490,7 @@ padding-left: 5rem;
     flex-direction: row;
     height: fit-content;
     width: 100vw;
-  top: 95%;
+  top: 96%;
     background-color: #1a1a1a;
     justify-content: space-between;
 
@@ -606,7 +607,7 @@ padding-left: 5rem;
     opacity: 1;
     left: 0;
     top: 0;
-    z-index: 99999999999;
+    z-index: 800000;
   }
 
   .search-box input{
@@ -616,7 +617,7 @@ padding-left: 5rem;
     border: none;
     outline: none;
     color: wheat;
-    background-color: black;
+    background-color: b lack;
     border-bottom: 1px solid #666666;
   }
   .search-box p{
@@ -633,7 +634,7 @@ padding-left: 5rem;
   width: 100vw;
   height: 200px;
   position: fixed;
-  z-index: 500000;
+  z-index: 500;
 }
 .video-page .main-video {
   margin: 0rem;
@@ -706,7 +707,7 @@ margin-top: 1rem;
 .video-page .filter-bar {
   position: sticky;
   top: 17rem;
-  z-index: 20000;
+  z-index: 500;
   display: flex;
   flex-direction: row;
   overflow-x: auto;

@@ -48,7 +48,7 @@ export default function SearchBox({ videoslist, setShowSearchBox }) {
                   className="search-data"
                   onClick={() => {
                     setSearchText("");
-                    setShowSearchBox(false);
+                  openclosesearchbox(false);
                   }}
                 >
                   <p>{item.name}</p>

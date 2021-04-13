@@ -7,7 +7,7 @@ import { GlobalContext } from "../context/GlobalState";
 import Sidebar from "../components/Sidebar";
 
 export default function Home() {
-  const { videoslist, filters } = useContext(GlobalContext);
+  const { videoslist, filters,searchbox } = useContext(GlobalContext);
   const [filtereddata, setFilteredData] = useState([]);
 
   const [d, setD] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
@@ -37,7 +37,8 @@ export default function Home() {
         handlem={handlem}
         handleout={handleout}
       />
-              <Sidebar />
+      {!searchbox &&
+        <Sidebar />}
 
     </div>
   );
