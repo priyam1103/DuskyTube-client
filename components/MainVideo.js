@@ -19,7 +19,7 @@ export default function MainVideo({
           <iframe
            
             className="mainvideopx"
-            src={`${current_video.videourl}?autoplay=1&mute=1&loop=1&modestbranding=1&rel=0`}
+            src={`${current_video.videourl}?autoplay=1&mute=0&loop=1&modestbranding=1&rel=0`}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
